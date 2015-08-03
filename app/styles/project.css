@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.detailOuter {
+    width: 100vw;
+    height: 60vh;
+    background-color: #f2f2f2;
+    padding-top: 25px;
+    border-bottom: 1px solid #ccc;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.detailBox {
+    width: 70vw;
+    height: 90%;
+    margin: 0 auto;
+    padding: 4%;
+    border:1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    position: relative;
+}
+.badge-switch-left {
+    position: absolute;
+    left: -43px;
+    top: 148px;
+}
+.badge-switch-right {
+    position: absolute;
+    right: -45px;
+    top: 148px;
+}
+.badge-switch-left, .badge-switch-right {
+    font-size: 45px;
+    color: #ccc;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+.detailPoster {
+    width:30%;
+    height:100%;
+}
+.detailPoster:hover {
+    cursor:pointer;
+    border-color: #ff7f11;
+}
+.detailPoster img {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.detailOverview {
+    padding-top: 5%;
+    height: 60%;
+    overflow: auto;
+}
+.detailField {
+    font-size:12px;
+    margin-top:2px;
+}
+.detailLabel {
+    width:115px;
+    font-weight: bold;
+    display: inline-block;
+}
+.detailContent {
+    display: inline-block;
+}
+.detailText {
+    width: 70%;
+    height: inherit;
+    vertical-align: top;
+    padding: 5%;
+}
+.detailTitle {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.detailHomepage  {
+    font-size:11px;
+    margin-top:15px;
+}
+.detailHomepage a {
+    color: #ff8b30;
+}
+.detailHomepage a:hover {
+    color: #ff7500;
+}
+.detailHomepage:hover {
+
+}
+.detailText, .detailPoster {
+    display:inline-block;
+}
+div.tableOuter {
+    height: 45%;
+    overflow: scroll;
+}
+
+table.table {
+    overflow: scroll;
+    margin: 0 auto;
+    width: 50%;
+    height: inherit;
+}
+    
+tbody {
+    overflow: scroll;
+    height: 100px;
+
+}
+.table>tbody>tr>td {
+    vertical-align: middle;    
+    cursor: pointer;
+}
+td img {
+    height:70%;
+}
+
+i.fa {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+}
+
+i.fa:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=40);
+}
