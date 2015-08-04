@@ -17,11 +17,12 @@
   },
   "homepage": "https://github.com/cwhwang1986/pixar-movies",
   "dependencies": {
-    "node": "0.0.0",
     "body-parser": "^1.5.2",
+    "bower": "^1.4.1",
     "express": "~4.0.0",
     "express-partials": "~0.2.0",
     "express-session": "^1.7.2",
+    "node": "0.0.0",
     "nodemon": "^1.2.1",
     "request": "^2.34.0"
   }
