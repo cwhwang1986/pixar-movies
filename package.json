@@ -1,0 +1,28 @@
+{
+  "name": "Pixar_Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwhwang1986/pixar-movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwhwang1986/pixar-movies/issues"
+  },
+  "homepage": "https://github.com/cwhwang1986/pixar-movies",
+  "dependencies": {
+    "node": "0.0.0",
+    "body-parser": "^1.5.2",
+    "express": "~4.0.0",
+    "express-partials": "~0.2.0",
+    "express-session": "^1.7.2",
+    "nodemon": "^1.2.1",
+    "request": "^2.34.0"
+  }
+}
